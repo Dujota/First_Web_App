@@ -1,1 +1,7 @@
 <h1>Welcome to my Gallery</h1>
+
+<!-- Ruby Code to embed multiple images into the page -->
+
+<% 25.times do |splash| %>
+<img src="http://unsplash.it/200/300?random=<%=splash%>" alt="">
+<%end%>
